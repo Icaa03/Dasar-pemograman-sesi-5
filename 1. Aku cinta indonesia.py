@@ -2,9 +2,8 @@
 #    2. Aku Cinta Indonesia
 #    3. Aku Cinta Indonesia
 
-a = 1
-max = 3
-
-while (a <= max):
-    print (a, end=" Aku Cinta Indonesia \n")
-    a +=1
+a = 3
+num = 1
+for i in range (a):
+    print(f"{num}.Aku Cinta Indonesia")
+    num += 2
